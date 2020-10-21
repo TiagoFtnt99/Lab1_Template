@@ -30,7 +30,7 @@ public class QueueLinkedList<T> implements Queue<T> {
 
     @Override
     public void enqueue(T elem){
-        if()
+
     }
 
 
