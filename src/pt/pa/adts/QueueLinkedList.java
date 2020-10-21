@@ -14,6 +14,26 @@ public class QueueLinkedList<T> implements Queue<T> {
         //TODO: construtor deve inicializar uma fila vazia
     }
 
+    @Override
+    public int size(){
+        return size;
+    }
+
+    @Override
+    public boolean isEmpty(){
+        if(size <= 0){
+            return true;
+        }
+
+        return false;
+    }
+
+    @Override
+    public void enqueue(T elem){
+        if()
+    }
+
+
     //TODO: implementar métodos da interface à custa da estrutura de dados fornecida
 
     private class Node {
