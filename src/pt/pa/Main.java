@@ -9,6 +9,28 @@ public class Main {
 
         Queue<Integer> queue = new QueueLinkedList<>();
 
+        for (int i = 1; i < 10; i++) {
+            queue.enqueue(i);
+        }
+
+
+        System.out.println("\n1º elemento da queue: " + queue.front());
+
+        System.out.println("\nTamanho da queue: " + queue.size());
+
+        queue.dequeue();
+
+        System.out.println("\n1º elemento da queue: " + queue.front());
+
+        System.out.println("\nTamanho da queue: " + queue.size());
+
+
+        System.out.println("\nA queue está vazia? " + queue.isEmpty());
+
+        queue.clear();
+
+        System.out.println("\nA queue está vazia? " + queue.isEmpty());
+
         //TODO: testar implementação
 
     }

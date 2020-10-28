@@ -1,3 +1,5 @@
+package pt.pa.Exceptions;
+
 public class QueueEmptyException extends RuntimeException{
 
     public QueueEmptyException() {
